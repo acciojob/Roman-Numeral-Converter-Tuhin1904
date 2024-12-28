@@ -22,15 +22,10 @@ function convertToRoman(num) {
 		while(num >= value){
 			roman += symbol;
 			num = num - value;
-			// console.log("roman, num",roman,num)
+			
 		}
 	}
-	// console.log("Roman :",roman)
-
-  //your code here
-
 }
-// convertToRoman(199);
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
 console.log(convertToRoman(36));
